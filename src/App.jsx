@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-<h1>POST APP</h1>
+<h1 className='text-amber-300'>POST APP</h1>
     </>
   )
 }
