@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebaseConfig"; // ✅ Adjusted the path
+import { auth } from "../firebaseConfig"; 
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -68,3 +68,4 @@ const Signup = () => {
 };
 
 export default Signup;
+
