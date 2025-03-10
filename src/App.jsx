@@ -1,5 +1,6 @@
 import "./firebaseConfig";
 import Signup from "./Components/SignupPage"; // ✅ Check this filename
+import LoginPage from './Components/LoginPage'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1 className="text-4xl font-bold">Hello, Tailwind in React! 🚀</h1>
       </div>
       <Signup />
+      <LoginPage />
     </>
   );
 }
