@@ -5,8 +5,8 @@ import LoginPage from './Components/LoginPage'
 function App() {
   return (
     <>
-      <div className="flex items-center justify-center h-screen bg-gray-900 text-white">
-        <h1 className="text-4xl font-bold">Hello, Tailwind in React! 🚀</h1>
+      <div className="flex items-center justify-center h-screen bg-gray-950 text-white hover:bg-gray-900">
+        <h1 className="text-4xl font-bold  hover:bg-gray-950 hover:text-gray-500">ecommerce website</h1>
       </div>
       <Signup />
       <LoginPage />
