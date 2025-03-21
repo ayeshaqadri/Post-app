@@ -28,18 +28,12 @@ function App() {
           </ul>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+
         <Routes>
-          <Route path="/about" >
+          <Route path="/about" element={<Singup/>}/>
             <About />
           </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/users" element={<LoginPage/>}/>
         </Routes>
       </div>
     </Router>
@@ -60,4 +54,4 @@ function Users() {
   );
 }
 
-export default App;
+export default App; 
